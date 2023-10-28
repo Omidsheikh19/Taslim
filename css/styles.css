@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: antiquewhite;
+    
+  }
+
+.chapters-list {
+  list-style: none;
+  text-decoration: none;
+  padding-right: 0;
+  font-size: larger;
+  font-weight: 400;
+  
+}
+  
+.basmallah {
+  text-align: center;
+}
+  .book {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .language-switch {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .language-switch button {
+    margin: 0 10px;
+  }
+  
+  .chapter-content {
+    direction: rtl; /* Set the direction to right-to-left */
+    text-align: justify; /* Adjust text alignment */
+  }
+  
+  .chapter-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the paragraph direction based on language */
+  .fa {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .en {
+    direction: ltr;
+    text-align: left;
+  }
+  
+  .footnote-subtitle {
+    text-align: center;
+  }
+  
+  
